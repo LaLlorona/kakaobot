@@ -114,6 +114,11 @@ app.use('/api', apiRouter);
 
 
 apiRouter.post('/showBoss',boss_funtions.showBoss);
+apiRouter.post('/showBossCloser',boss_funtions.showBoss_closer);
+apiRouter.post('/showBossList1',boss_funtions.showBossList1);
+apiRouter.post('/showBossList2',boss_funtions.showBossList2);
+apiRouter.post('/showBoss2',boss_funtions.showBoss2);
+
 apiRouter.post('/addBoss',boss_funtions.addBoss);
 
 apiRouter.post('/showAbyss',abyss_functions.showAbyss);
